@@ -1,0 +1,38 @@
+*{
+padding: 0;
+margin: 0 ;
+box-sizing: border-box ;
+}
+#navsection{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 40px;
+    text-decoration: none;
+    /* background-color: aqua; */
+}
+#navsection li a {
+    text-decoration: none;
+}
+.microsoft_menu{
+    position: relative;
+    
+}
+.table_section{
+    position: absolute;
+    display: none;
+    background-color: grey;
+    
+}
+.microsoft_menu:hover .table_section{
+    display:block
+}
+.leftsection_navbar{
+    display: flex;
+    gap: 30px;
+}
+ 
+.rightsection_navbar{
+    display: flex;
+    gap: 30px;
+}
